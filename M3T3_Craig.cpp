@@ -24,7 +24,8 @@ int main() {
     }
     else{
         do
-        {
+        { 
+            cout << "Rerolling --- " << endl;
             seed = time(0);
              srand(seed);
     die1 = (rand() % 6) + 1;
